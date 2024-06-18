@@ -10,7 +10,7 @@ The app is meant to be informative in nature, no guarantees are made about corre
 
 ## Building docker image localy
 ```
-git clone https://github.com/crtahlin/swarm-network-stats.git
+git clone https://github.com/crtahlin/swarm-staking-stats.git
 cd swarm-network-stats
 docker build -t swarm-staking-public .
 docker run --rm -p 3838:3838 swarm-staking-public:latest
